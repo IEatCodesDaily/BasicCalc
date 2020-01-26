@@ -139,10 +139,10 @@ int derive(int con, int pow) {
 }
 void poly() {
 
-    int arr[100],power;
+    int power;
     cout << "\nEnter the highest degree of the polynomial equation: ";
     cin >> power;
-    power;
+    int* array = new int[power];
 
     for (int i = 0; i <= power; i++) {
         cout << "\nEnter the constant for x^" << i << " :";
