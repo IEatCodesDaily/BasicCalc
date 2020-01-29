@@ -5,6 +5,8 @@
 
 using namespace std;
 
+// Declaration of the functions that will be used in this program
+// The program execution begins and ends in the main function
 void calc();
 void poly();
 void newdisp(int no);
@@ -12,6 +14,7 @@ int inputcheck();
 int derive(int con, int pow);
 int intcheck();
 
+// The 'main' function
 int main() {
 
     int mode, repeat = 1;
