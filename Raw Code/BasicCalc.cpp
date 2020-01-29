@@ -17,13 +17,16 @@ int intcheck();
 // The 'main' function
 int main() {
 
-    // Declaration for the upcoming program
+    // Some declaration needed for the upcoming program
     int mode, repeat = 1;
     string isRepeat;
 
     cout << "Basic Calc v1.0" << endl;
 
-    //loop
+    //loop to initiate the calculator
+    //there are two kinds of calculator, the basic ones and the polynomial ones
+    //input "1" to start the basic calculator, and "2" for the polynomial calculator
+    
     while (repeat == 1) {
         while (1) {
             cout << "Mode:\n1.Simple Calculation\n2.Polynomial Derivation\nEnter the number: " << endl;
